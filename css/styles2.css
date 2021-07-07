@@ -1,0 +1,39 @@
+.jumbotron {
+  background-color: #F5F506;
+  color: #FD1304;
+  margin-top: 50px;
+  margin-top: 0px;
+  /* margin-top: 10px;
+    margin-top: 0px;*/
+}
+/*.btn {
+      color: yellow;
+  }*/
+footer {
+  padding: 1rem 1rem 0 1rem;
+  background-color: #F5F506;
+  color: #81E303;
+  margin-top: 10px;
+  margin-top: 0px;
+  /*margin-top: 10px;
+    margin-top: 0px;
+    margin-bottom: 1px;
+      margin-top: 10px;*/
+}
+.footer-address-icon {
+  padding-right: 1rem;
+}
+.card-moto {
+  flex: 1 20rem;
+  margin-top: 10px;
+  margin-top: 0px;
+  /*margin-top: 10px;
+    margin-top: 0px;*/
+}
+.btn-reserva {
+  width: 100%;
+  border-radius: 0px;
+}
+.tab-content {
+  padding-top: 10px;
+}

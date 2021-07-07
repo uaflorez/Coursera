@@ -1,0 +1,45 @@
+$yellow: #8be2af;
+$red: #FD1304;
+$green:#172702;
+
+@mixin margenes($top, $bottom) {
+    margin-top: $top;
+    margin-top: $bottom;
+}
+@mixin padding ($top){
+    padding-top: $top;
+}
+
+.jumbotron {
+	background-color: $yellow;
+    color: $red;
+    @include margenes(10px, 0px);
+	
+}
+/*.btn {
+	color: yellow;
+}*/
+footer{
+	padding: 1rem 1rem 0 1rem;
+    background-color: $yellow;
+    color: $green;
+    @include margenes(10px, 0px);
+	/*margin-bottom: 1px;
+	margin-top: 10px;*/
+}
+.footer-address-icon {
+	padding-right: 1rem;
+}
+.card-moto {
+	flex: 1 20rem;
+	@include margenes(10px, 0px);
+}
+.btn-reserva {
+	width: 100%;
+	border-radius: 0px;	
+}
+
+.tab-content {
+    @include padding(10px);
+	//padding-top: 1rem;
+}

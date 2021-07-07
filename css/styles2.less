@@ -1,0 +1,52 @@
+@yellow: #F5F506;  // en less la variable lleva el @ no como en sass que lleva $
+
+.margenes(@top: 0px, @bottom: 0px) {    //el punto remplaza la palabra mixin
+    margin-top: @top;
+    margin-top: @bottom;
+}
+.padding (@top: 0px){
+    padding-top: @top;
+}
+
+.jumbotron {
+    background-color: @yellow;
+    color: #FD1304;
+    .margenes(50px, 0px);
+   /* margin-top: 10px;
+    margin-top: 0px;*/ 
+}
+  
+  /*.btn {
+      color: yellow;
+  }*/
+  footer {
+    padding: 1rem 1rem 0 1rem;
+    background-color: @yellow;
+    color: #81E303;
+    .margenes(10px, 0px);
+    /*margin-top: 10px;
+    margin-top: 0px;
+    margin-bottom: 1px;
+      margin-top: 10px;*/ 
+}
+  
+  .footer-address-icon {
+    padding-right: 1rem; 
+}
+  
+  .card-moto {
+    flex: 1 20rem;
+    .margenes(10px, 0px);
+    /*margin-top: 10px;
+    margin-top: 0px;*/ 
+}
+  
+  .btn-reserva {
+    width: 100%;
+    border-radius: 0px; 
+}
+  
+  .tab-content {
+      .padding(10px);
+    //padding-top: 10px; 
+}
