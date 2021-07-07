@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+
+  <!-- Bootstrap CSS -->
+  <!-- build:css css/index.css -->
+  <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css"/>
+  <link rel="stylesheet" href="css/styles.css"/>
+  <link rel="stylesheet" href="node_modules/open-iconic/font/css/open-iconic-bootstrap.min.css"/>
+  <!-- endbuild -->
+
+  <title>
+    Motos 
+  </title>
+
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <a class="navbar-brand" href="#">Motos</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active"><a class="nav-link" href="#">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="./about.html">Nosotros</a></li>
+        <li class="nav-item"><a class="nav-link" href="./precios.html">Precios</a></li>
+        <li class="nav-item"><a class="nav-link" href="./termin_condi.html">Terminos y Condiciones</a></li>
+        <li class="nav-item"><a class="nav-link" href="./contactanos.html">Contactanos</a></li>
+        <li class="nav-item"><a class="nav-link" href="./blog.html">Blog</a></li>
+      </ul>
+    </div>
+  </nav>
+  <div class="jumbotron">
+    <h1>Las Motos Más Vendidas </h1>
+    <img src="images/motos.png" class="img-fluid"  alt="responsive images" style="width: 100%; height: 300px;">
+  </div>
+  <div class="container">
+    <nav aria-label="breadcrumb">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item active" aria-current="page">Home</li>
+      </ol>
+    </nav>
+    <div class="row">
+      <div class="col-sm-4">
+        <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#funciona" aria-expanded="false" aria-controls="multi-collapse1">¿Como Funciona?</button>
+      </div>
+      <div class="col-sm-4">
+        <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#reserva" aria-expanded="false" aria-controls="multi-collapse2">¿Donde Puedo Reservar?</button>
+      </div>
+      <div class="col-sm-4">
+        <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#pago" aria-expanded="false" aria-controls="multi-collapse3">¿Cómo Pago?</button>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-4 collapse multi-collapse" id="funciona">
+        <p>
+          <h3>¿Como Funciona?</h3>
+          <p>busca la marca que te gusta</p>
+        </p>
+      </div>
+      <div class="col-sm-4 collapse multi-collapse" id="reserva">
+        <p>
+          <h3>¿Dónde Puedo Reservar?</h3>
+          <p>Elije la marca que te interesa y luego realizá la resrva con tus datos</p>
+        </p>
+      </div>
+      <div class="col-sm-4 collapse multi-collapse" id="pago">
+        <p>
+          <h3>¿Cómo Pago?</h3>
+          <p>utiliza tu tarjeta favorita, o solicita mas info para tramitar tu credito</p>
+        </p>
+      </div>
+    </div>
+    <hr>
+    <div id="carouselControls" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img class="d-block w-100" src="images/Navi.jpg" alt="Primer slide">
+        </div>
+        <div class="carousel-item ">
+          <img class="d-block w-100" src="images/ktm.jpg" alt="Segundo slide">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="images/auteco.jpg" alt="Tercer slide">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="images/royal_enfield.jpg" alt="Cuarto slide">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="images/ducati.jpg" alt="Quinto slide">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="images/kawasaki.jpg" alt="Sexto slide">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="images/suzuki.jpg" alt="Septimo slide">
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselControls" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Anterior</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselControls" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Siguiente</span>
+      </a>
+    </div>
+
+    <div class="d-flex flex-wrap flex-row-reverse">
+      <div class="card card-moto d-flex flex-column justify-content-between ml-2">
+        <img class="card-img-top" src="images/Navi.jpg" alt="navi.jpg">
+        <div class="card-body">
+          <h5 class="card-title" data-toggle="tooltip" data-placement="top" title="las primeras reservas cuentan con clase de conduccion gratis">Honda</h5>
+          
+          <h6 class="card-subtitle text-muted" data-toggle="popover" title="Promociones" data-content="Consultá las promociones vigentes"> Honda Bogotá</h6>
+          <p class="card-text">Motos de ciudad ayudan con el tranbajo duro. Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500</p>
+          <button class="btn btn-outline-success" data-toggle="modal" data-target="#contacto">Contacto</button>
+        </div>
+        <div>
+          <button type="button" class="btn btn-success btn-reserva" data-toggle="modal" data-target="#formulario">Reservar</button>
+        </div>
+      </div>
+      <div class="card card-moto d-flex flex-column justify-content-between ml-2">
+        <img class="card-img-top" src="images/suzuki.jpg" alt="suzuki.jpg">
+        <div class="card-body">
+          <h5 class="card-title" data-toggle="tooltip" data-placement="top" title="las primeras reservas cuentan con clase de conduccion gratis">Suzuki</h5>
+          <h6 class="card-subtitle text-muted" data-toggle="popover" title="Promociones" data-content="Consultá las promociones vigentes">Suzuki Bogotá</h6>
+          <p class="card-text">Motos turing para viajar por cualquier lugar que tu decidas. Es un hecho establecido hace demasiado tiempo que un lector se distraerá con el contenido del texto de un sitio mientras que mira su diseño. El punto de usar Lorem Ipsum es que tiene una distribución más o menos normal de las letras, al contrario de usar textos como por ejemplo "Contenido aquí, contenido aquí". Estos textos hacen parecerlo</p>
+          <button class="btn btn-outline-success" data-toggle="modal" data-target="#contacto">Contacto</button>
+        </div>
+        <div>
+          <button type="button" class="btn btn-success btn-reserva" data-toggle="modal" data-target="#formulario">Reservar</button>
+        </div>
+      </div>
+      <div class="card card-moto d-flex flex-column justify-content-between ml-2">
+        <img class="card-img-top" src="images/auteco.jpg" alt="auteco.jpg">
+        <div class="card-body">
+          <h5 class="card-title" data-toggle="tooltip" data-placement="top" title="las primeras reservas cuentan con clase de conduccion gratis">Auteco</h5>
+          <h6 class="card-subtitle text-muted" data-toggle="popover" title="Promociones" data-content="Consultá las promociones vigentes">Auteco Bogotá</h6>
+          <p class="card-text">Motos de ciudad te sirven para el trabajo duro por su economia. El trozo de texto estándar de Lorem Ipsum usado desde el año 1500 es reproducido debajo para aquellos interesados. Las secciones 1.10.32 y 1.10.33 de "de Finibus Bonorum</p>
+          <button class="btn btn-outline-success" data-toggle="modal" data-target="#contacto">Contacto</button>
+        </div>
+        <div>
+          <button type="button" class="btn btn-success btn-reserva" data-toggle="modal" data-target="#formulario">Reservar</button>
+        </div>
+      </div>
+      <div class="card card-moto d-flex flex-column justify-content-between ml-2">
+        <img class="card-img-top" src="images/ducati.jpg" alt="ducati.jpg">
+        <div class="card-body">
+          <h5 class="card-title" data-toggle="tooltip" data-placement="top" title="las primeras reservas cuentan con clase de conduccion gratis">Ducati</h5>
+          <h6 class="card-subtitle text-muted" data-toggle="popover" title="Promociones" data-content="Consultá las promociones vigentes">Ducati Bogotá</h6>
+          <p class="card-text">Motos turing para disfrutar le los paisajes de nuestro pais. Ipsum que se encuentran en Internet tienden a repetir trozos predefinidos cuando sea necesario, haciendo a este el único generador verdadero (válido) en la Internet. Usa un diccionario de mas de 200 palabras provenientes del latín, combinadas con estructuras muy útiles de sentencias, para generar texto de Lorem Ipsum que parezca razonable</p>
+          <button class="btn btn-outline-success" data-toggle="modal" data-target="#contacto">Contacto</button>
+        </div>
+        <div>
+          <button type="button" class="btn btn-success btn-reserva" data-toggle="modal" data-target="#formulario">Reservar</button>
+        </div>
+      </div>
+      <div class="card card-moto d-flex flex-column justify-content-between ml-2">
+        <img class="card-img-top" src="images/kawasaki.jpg" alt="kawasaki.jpg">
+        <div class="card-body">
+          <h5 class="card-title" data-toggle="tooltip" data-placement="top" title="las primeras reservas cuentan con clase de conduccion gratis">Kawasaki</h5>
+          <h6 class="card-subtitle text-muted" data-toggle="popover" title="Promociones" data-content="Consultá las promociones vigentes">Kawasaki Bogotá</h6>
+          <p class="card-text">Motos de ruta para llegar a donde tu quieras. Al contrario del pensamiento popular, el texto de Lorem Ipsum no es simplemente texto aleatorio. Tiene sus raices en una pieza cl´sica de la literatura del Latin</p>
+          <button class="btn btn-outline-success" data-toggle="modal" data-target="#contacto">Contacto</button>
+        </div>
+        <div>
+          <button type="button" class="btn btn-success btn-reserva" data-toggle="modal" data-target="#formulario">Reservar</button>
+        </div>
+      </div>
+      <div class="card card-moto d-flex flex-column justify-content-between ml-2">
+        <img class="card-img-top" src="images/ktm.jpg" alt="ktm.jpg">
+        <div class="card-body">
+          <h5 class="card-title" data-toggle="tooltip" data-placement="top" title="las primeras reservas cuentan con clase de conduccion gratis">KTM</h5>
+          <h6 class="card-subtitle text-muted" data-toggle="popover" title="Promociones" data-content="Consultá las promociones vigentes">KTM Bogotá</h6>
+          <p class="card-text">Motos para hacer enduro y para hacer ruta con las doble propocito. N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. No sólo sobrevivió 500 años, sino que tambien ingresó como </p>
+          <button class="btn btn-outline-success" data-toggle="modal" data-target="#contacto">Contacto</button>
+        </div>
+        <div>
+          <button type="button" class="btn btn-success btn-reserva" data-toggle="modal" data-target="#formulario">Reservar</button>
+        </div>
+      </div>
+      <div class="card card-moto d-flex flex-column justify-content-between ml-2">
+        <img class="card-img-top" src="images/royal_enfield.jpg" alt="royal.jpg">
+        <div class="card-body">
+         <h5 class="card-title" data-toggle="tooltip" data-placement="top" title="las primeras reservas cuentan con clase de conduccion gratis">Royal Enfield</h5>
+          <h6 class="card-subtitle text-muted" data-toggle="popover" title="Promociones" data-content="Consultá las promociones vigentes">Royal Enfield Bogotá</h6>
+          <p class="card-text">Motos tipo harley en colores variados.
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero optio rerum nemo eaque, fuga eveniet perferendis atque 
+          </p>
+          <button class="btn btn-outline-success" data-toggle="modal" data-target="#contacto" id="contactoBtn">Contacto</button>
+        </div>
+        <div>
+          <button type="button" class="btn btn-success btn-reserva" data-toggle="modal" data-target="#formulario">Reservar</button>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="formulario" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Reserva con el Consecionario</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label=Close>
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="form-group">
+                <label for="recipient-name" class="col-form-label">Tu Nombre:</label>
+                <input type="text" class="form-control" id="recipient-name">
+              </div>
+              <div class="form-group">
+                <label for="recipient-name" class="col-form-label">Tu email:</label>
+                <input type="email" class="form-control" id="recipient-name">
+              </div>
+              <div class="form-group">
+                <label for="recipient-name" class="col-form-label">Tu Telefono</label>
+                <input type="number" class="form-control" id="recipient-name">
+              </div>
+              <div class="form-group">
+                <label for="recipient-name" class="col-form-label">Tu Dirección</label>
+                <input type="text" class="form-control" id="recipient-name">
+              </div>
+              <div class="form-group">
+                <label for="message-text" class="col-form-label">Mensaje</label>
+                <textarea class="form-control" id="message-text"></textarea>
+              </div>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Guardar</button>
+            <button type="button" class="btn btn-success">Enviar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="contacto" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Contacto con el Consecionario</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label=Close>
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="form-group">
+                <label for="recipient-name" class="col-form-label">Tu email:</label>
+                <input type="text" class="form-control" id="recipient-name">
+              </div>
+              <div class="form-group">
+                <label for="message-text" class="col-form-label">Mensaje</label>
+                <textarea class="form-control" id="message-text"></textarea>
+              </div>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Guardar</button>
+            <button type="button" class="btn btn-success">Enviar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer>
+    <div class="row">
+      <div class="col-sm-4 d-flex flex-column">
+        <a href="www.facebook.com">Facebook</a>
+        <a href="www.instagram.com">Instagram</a>
+        <a href="www.twitter.com">Twitter</a>
+        <a href="www.linkedIn.com">LinkedIn</a>
+      </div>
+      <div class="col-sm-4">
+        <address>
+          <h3>Oficina Central.</h3>
+          <p><span class="oi oi-home footer-address-icon"></span> Bogotá, Colombia.</p>
+          <p><span class="oi oi-phone footer-address-icon"></span> +57 35426662</p>
+          <p><span class="oi oi-inbox footer-address-icon"></span> sumesoluciones@motoplus.com</p>
+        </address>
+      </div>
+      <div class="col-sm-4 d-flex flex-column align-items-end">
+        <a href="./about.html">Nosotros</a>
+        <a href="./termin_condi.html">Terminos y Condiciones</a>
+        <a href="./contactanos.html">Contactanos</a>
+        <a href="./blog.html">Blog</a>
+        <a href="./precios.html">Precios</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Optional JavaScript
+  <!-jQuery first, then Popper.js, then Bootstrap JS -->
+  <!-- build:js js/main.js -->
+  <script src="node_modules/jquery/dist/jquery.min.js"></script>
+  <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+  <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+  <script src="js/index.js"></script>
+  <!-- endbuild -->
+</body>
+</html>
